@@ -33,17 +33,42 @@
       •Run the following command:
         python main.py
 
-     »Example Output
-       Guess a number (1-100): 50
-       Too low! Try again.
-       Guess a number (1-100): 75
-       Too high! Try again.
-       Guess a number (1-100): 63
-       Congratulations! You guessed it!
-       Attempts: 3
-
       »Purpose
         This project was created for practising basic Python programming concepts, including loops, conditional statements, user input, and random number generation.
+
+     ★Student DBMS
+       It is a simple, menu-driven Student Database Management System . It allows users to store, view, search, update, and delete student records using a Python dictionary.
+       »Features
+        •Enter Student Data: Add a new student    using their roll number, name, class, and marks.
+        •View All Students: Display all student records stored in the database.
+        •Search Student: Find a student using their roll number.
+        •Update Student Data: Modify a student's name, class, or marks.
+        •Delete Student: Remove a student's record from the database.
+        •Exit: Close the program safely.
+Concepts Used
+        •Dictionary: Stores student records as key-value pairs.
+        •Nested Dictionary: Stores each student's name, class, and marks.
+        •While Loop: Repeatedly displays the menu until the user exits.
+        •If-Elif-Else Statements: Handle menu choices and conditions.
+        •For Loop: Iterates through student records for displaying information.
+        •User Input: Accepts information using input().
+        •Dictionary Methods: Uses .items() to access records and del to delete records.
+        •Type Conversion: Uses int() to convert marks into integers.
+        •Break Statement: Terminates the program when the user chooses Exit.
+        •Continue Statement: Skips the remaining statements when an invalid update option is selected.
+ 
+     →Important point:
+         •Student records are stored in a Python dictionary while the program is running. The data is temporary and will be lost when the program terminates because file or database storage has not been implemented.
+       
+      »Purpose
+         This project was created to practise Python programming concepts such as dictionaries, nested dictionaries, loops, conditional statements, functions of data structures, and user input through a practical application.
+
+      »Future Improvements
+       •Save student records permanently using file handling.
+       •Connect the program to an SQL database.
+       •Add input validation for marks and other fields.
+       •Generate student reports and calculate grades.
+        
 
    
     

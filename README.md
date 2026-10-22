@@ -69,6 +69,15 @@ Concepts Used
        •Add input validation for marks and other fields.
        •Generate student reports and calculate grades.
         
+   ★What I have learn in Week 1:
+     •About random library and random. ranking() function. 
+     •Using If ,elif,else statement. 
+     •Using while loop ,for loop and not equal to operator (!) 
+     •Learning about database. 
+     •How to use input function to take user input and store it into key value pairs in dictionary. 
+     •Difference between directly printing a dictionary and using for loop with dictionary_name[].name.items() 
+     •How to search a elment in a dictionary. 
+     
 
    
     
